@@ -1,0 +1,80 @@
+a{
+  text-decoration: none;
+}
+button{
+  border-radius: 3px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.sub-btn {
+  background-color: rgb(220, 0, 10);
+  color: white;
+  border: none;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.5s;
+  vertical-align: top;
+}
+
+.sub-btn:hover{
+  background-color: rgb(191, 0, 10);
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.sub-btn:active{
+  border-radius: 5px;
+  width: 103px;
+  height: 33px;
+}
+
+
+.join-btn{
+  background-color: white;
+  color: rgb(4, 151, 151);
+  border-color: rgba(4, 151, 151, 0.923);
+  border-width: 1px;
+  border-style: solid;
+  width: 60px;
+  margin-right: 10px;
+  vertical-align: top;
+
+  transition: color 0.3s, background-color 0.8s;
+
+}
+
+.join-btn:hover{
+  background-color: rgb(4, 151, 151);
+  color: white;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.join-btn:active{
+  width: 58px;
+  height: 35px;
+  border-radius: 8px;
+  transition: width 50ms, height 50ms;
+}
+
+.twt-btn {
+  width: 80px;
+  background-color: rgb(18, 162, 187);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.twt-btn:hover{
+  box-shadow: 0px 2px 8px rgba(128, 128, 128, 100);
+  
+  transition: box-shadow 0.3s;
+}

@@ -1,0 +1,65 @@
+button{
+  border: none;
+}
+
+a {
+  font-size: 18px;
+  text-decoration-style: dashed;
+  color: #8ab4f8;
+  transition: color 0.1s;
+}
+
+a:hover{
+  color: #6298ee;
+}
+
+.big-btn{
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  background-color: rgb(1, 102, 2);
+  color: white;
+  cursor: pointer;
+  transition: padding 2s, margin 0.01s;
+  box-shadow: 3px 3px 7px rgb(128, 128, 128);
+}
+
+.big-btn:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.big-btn:active{
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+
+.nav-btn{
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid darkgray;
+  
+  border-radius: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  margin-right: 12px;
+  margin-left: 12px;
+
+  transition: margin 0.5s, padding-right 0.5s, padding-left 0.5s;
+}
+
+.nav-btn:hover{
+  padding-right: 18px;
+  padding-left: 18px;
+
+  margin-right: 4px;
+  margin-left: 4px;
+}

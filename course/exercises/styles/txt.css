@@ -1,0 +1,192 @@
+p{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: Tahoma;
+  font-weight: bold;
+}
+
+button{
+  border: none;
+}
+
+
+.crs-btn{
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  background-color: rgb(21, 164, 28);
+  color: white;
+  border-radius: 4px;
+  font-family: Verdana;
+  box-shadow: 0px 2px 5px gray;
+}
+
+.crs-btn:hover{
+  background-color: rgb(17, 132, 23);
+  cursor: pointer;
+}
+
+.crs-btn:active{
+  margin-top: 2px;
+  padding-bottom: 6px;
+}
+
+.heading{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.fllw-up{
+  font-weight: normal;
+  color: rgb(214, 30, 30);
+  font-style: italic;
+}
+
+.crse-heading{
+  margin-top: 50px;
+  font-family: Verdana;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.fllw-up2{
+  font-family: Verdana;
+  font-weight: normal;
+  color: gray;
+}
+
+.crs-p{
+  margin-bottom: 25px;
+  width: 310px;
+  font-weight: normal;
+}
+
+
+.shop-heading{
+  font-size: 31px;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+
+.shop-p{
+  font-size: 13px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.shop-link{
+  color: rgb(8, 116, 167);
+  font-size: 13px;
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 70px;
+} .shop-link:hover{text-decoration: underline; cursor: pointer;}
+
+
+.twt{
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.twt-uid{
+  color: rgb(103, 102, 102);
+  font-weight: normal;
+}
+
+.twt-p{
+  font-family: Arial;
+  font-size: 14px;
+  width: 470px;
+  line-height: 25px; 
+  margin-bottom: 15px;
+}
+
+.twt-p2{
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  font-family: Arial;
+  font-size: 14px;
+  width: 470px;
+  line-height: 25px; 
+  margin-bottom: 10px;
+}
+
+.twt-mention{
+  color: rgb(29, 142, 194);;
+  font-family: Arial;
+  font-size: 14px;
+  width: 470px;
+  line-height: 25px; 
+} .twt-mention:hover{cursor: pointer; color: rgb(26, 116, 157);}
+
+.twt-textbar{
+  box-shadow: 0 1px 8px rgba(128, 128, 128, 0.4);
+  border: none;
+  border-radius: 7px;
+  vertical-align: top;
+  margin-top: 6px;
+  margin-left: 4px;
+
+  padding: 5px;
+
+}
+
+.twt-postBtn{
+  color: white;
+  background-color: rgb(29, 161, 242);
+  border-radius: 30px;
+  vertical-align: top;
+
+  margin-top: 6px;
+  margin-left: 13px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  transition: background-color 0.3s, margin 0.1s, padding 0.1s;
+}
+
+.twt-postBtn:hover{
+  background-color: rgb(13, 130, 203);
+  cursor: pointer;
+}
+
+.twt-postBtn:active{
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.monkey-img{
+  width: 37px;
+  height: 37px;
+  border-radius: 100px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.twt-logo{
+  vertical-align: middle;
+  width: 13px;
+  height: 13px;
+
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+.twt-text{
+  vertical-align: middle;
+}

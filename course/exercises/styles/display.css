@@ -1,0 +1,74 @@
+input{
+  border-style: solid;
+}
+
+.name, .email{
+  display: block;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+
+.p1{
+  margin-top: 30px;
+  width: 200px;
+  display: inline-block;
+}
+
+.yes-btn, .no-btn{
+  vertical-align:text-bottom;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.yes-btn{
+  margin-left: 7px;
+}
+
+.google-img{
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 12px;
+  margin-left: 80px;
+  width: 150px;
+}
+
+.google-search{
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0 1px 6px rgba(128, 128, 128, 0.5);
+  width: 222px;
+
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 30px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  
+}
+
+.search-btn{
+  margin-left: 52px;
+}
+
+.lucky-btn{
+  margin-left: 5px;
+}
+
+.search-btn, .lucky-btn{
+  padding: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(128, 128, 128, 0.71);
+}
+.google-div{
+  margin: 0 auto;
+  width: 330px;
+  height: 160px;
+}
+

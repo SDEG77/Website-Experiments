@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/grid.css">
+
+    <title>
+      Grid Practice
+    </title>
+  </head>
+
+  <body>
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px;
+      ">
+      <div>
+        Div 1
+      </div>
+
+      <div>
+        Div 2
+
+        <p>fuck you</p>
+      </div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      margin-top: 30px;
+      ">
+      <div>
+        100px
+      </div>
+
+      <div>
+        100px
+        <p>fuck you</p>
+      </div>
+
+      <div>
+        200px
+      </div>
+
+      <div>
+        200px
+      </div>
+    </div>
+
+
+    <div style="
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    margin-top: 30px;
+    column-gap: 10px;
+    row-gap: 10px;
+    ">
+    <div>
+      100px
+    </div>
+
+    <div>
+      100px
+      <p>fuck you</p>
+    </div>
+
+    <div>
+      200px
+    </div>
+
+    <div>
+      200px
+    </div>
+  </div>
+  </body>
+</html>
